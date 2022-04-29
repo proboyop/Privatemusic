@@ -130,7 +130,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "𝐒𝐡𝐨𝐧𝐚 🕊️⃝🦋 𝐌𝐮𝐬𝐢𝐜"
+        user.first_name = "𝐀𝐒𝐓𝐔 🕊️⃝🦋 𝐌𝐔𝐒𝐈𝐂"
     usar = user
     wew = usar.id
     try:
@@ -154,12 +154,12 @@ async def play(_, message: Message):
                     pass
                 except Exception:
                     await lel.edit(
-                        f"**🎸 𝐏𝐥𝐞𝐚𝐬𝐞 ❤️ 𝐌𝐚𝐧𝐮𝐚𝐥𝐥𝐲 🥀 𝐀𝐝𝐝 💫 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 😔 𝐎𝐫 🎸 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 ❤️ 𝐓𝐨 ː [❛-𝐌𝐫'𝐋𝐞𝐆𝐞𝐧𝐃 🚬 𝐊𝐚𝐚𝐋-𝐱𝐃 °](https://t.me/iamkaal) 🥀**")
+                        f"**🎸 𝐏𝐥𝐞𝐚𝐬𝐞 ❤️ 𝐌𝐚𝐧𝐮𝐚𝐥𝐥𝐲 🥀 𝐀𝐝𝐝 💫 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 😔 𝐎𝐫 🎸 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 ❤️ 𝐓𝐨 ː [❛-`•.,¸¸,.•´¯ ♖♟ 𝐀ＳŦ𝓤 💝🏆 ¯`•.,¸¸,.•´](https://t.me/Astu_back) 🥀**")
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"**🎸 𝐏𝐥𝐞𝐚𝐬𝐞 ❤️ 𝐌𝐚𝐧𝐮𝐚𝐥𝐥𝐲 🥀 𝐀𝐝𝐝 💫 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 😔 𝐎𝐫 🎸 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 ❤️ 𝐓𝐨 ː [❛-𝐌𝐫'𝐋𝐞𝐆𝐞𝐧𝐃 🚬 𝐊𝐚𝐚𝐋-𝐱𝐃 °](https://t.me/iamkaal) 🥀**")
+            f"**🎸 𝐏𝐥𝐞𝐚𝐬𝐞 ❤️ 𝐌𝐚𝐧𝐮𝐚𝐥𝐥𝐲 🥀 𝐀𝐝𝐝 💫 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 😔 𝐎𝐫 🎸 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 ❤️ 𝐓𝐨 ː [❛-`•.,¸¸,.•´¯ ♖♟ 𝐀ＳŦ𝓤 💝🏆 ¯`•.,¸¸,.•´](https://t.me/Astu_back) 🥀**")
         return
     
     audio = (
@@ -186,8 +186,8 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐒𝐭𝐮𝐝𝐲 𝐆𝐫𝐨𝐮𝐩 💞",
-                            url=f"https://t.me/sscnewgroup")
+                            text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 💞",
+                            url=f"https://t.me/The_Friend_Circle")
 
                 ]
             ]
@@ -225,8 +225,8 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐒𝐭𝐮𝐝𝐲 𝐆𝐫𝐨𝐮𝐩 💞",
-                            url=f"https://t.me/sscnewgroup")
+                            text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 💞",
+                            url=f"https://t.me/The_Friend_Circle")
 
                 ]
             ]
@@ -241,8 +241,8 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐒𝐭𝐮𝐝𝐲 𝐆𝐫𝐨𝐮𝐩 💞",
-                            url=f"https://t.me/sscnewgroup")
+                            text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 💞",
+                            url=f"https://t.me/The_Friend_Circle")
 
                 ]
             ]
@@ -295,8 +295,8 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐒𝐭𝐮𝐝𝐲 𝐆𝐫𝐨𝐮𝐩 💞",
-                            url=f"https://t.me/sscnewgroup")
+                            text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 💞",
+                            url=f"https://t.me/The_Friend_Circle")
 
                 ]
             ]
@@ -318,7 +318,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="**💥 𝐒𝐡𝐨𝐧𝐚 🥀 𝐌𝐮𝐬𝐢𝐜 💿 𝐍𝐨𝐰❗️\n🔊 𝐐𝐮𝐞𝐮𝐞𝐝 💞 𝐀𝐭 » `{}` 🌷 ...**".format(position),
+            caption="**💥  𝐀𝐒𝐓𝐔 🕊️⃝🦋 𝐌𝐔𝐒𝐈𝐂 𝐍𝐨𝐰❗️\n🔊 𝐐𝐮𝐞𝐮𝐞𝐝 💞 𝐀𝐭 » `{}` 🌷 ...**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -335,7 +335,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**💥 𝐒𝐡𝐨𝐧𝐚 🌺 𝐌𝐮𝐬𝐢𝐜 🎸 𝐍𝐨𝐰 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 𝐎𝐏 🥀 ...**".format(),
+            caption="**💥 𝐀𝐒𝐓𝐔 🕊️⃝🦋 𝐌𝐔𝐒𝐈𝐂 𝐍𝐨𝐰 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 𝐎𝐏 🥀 ...**".format(),
            )
 
     os.remove("final.png")
