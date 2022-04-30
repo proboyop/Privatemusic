@@ -103,7 +103,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text(
         (190, 670),
-        f"Powered By: Miss Shona (Aditya)",
+        f"Powered By: Mr Nitric",
         (255, 255, 255),
         font=font,
     )
@@ -177,7 +177,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://te.legra.ph/file/ed6920a2f0ab5af3fd55d.png"
+        thumb_name = "https://telegra.ph/file/4d6107c3ec7b105eb755c.png"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -234,7 +234,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://te.legra.ph/file/ed6920a2f0ab5af3fd55d.png"
+            thumb_name = "https://telegra.ph/file/4d6107c3ec7b105eb755c.png"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
