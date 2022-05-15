@@ -11,7 +11,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/1d1a3683c98673b5e6ca5.png",
+        photo=f"https://telegra.ph/file/9a4731f8c0fe2631a9823.jpg ",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
 💥 𝐇𝐞𝐥𝐥𝐨, 𝐈 𝐚𝐦 𝐒𝐮𝐩𝐞𝐫𝐟𝐚𝐬𝐭 𝐇𝐢𝐠𝐡 𝐐𝐮𝐚𝐥𝐢𝐭𝐲
 𝐍𝐨 𝐋𝐚𝐠 𝐕𝐂 𝐌𝐮𝐬𝐢𝐜 𝐏𝐥𝐚𝐲𝐞𝐫 𝐁𝐨𝐭.
@@ -41,7 +41,7 @@ async def start_(client: Client, message: Message):
 @Client.on_message(commandpro(["/start", "/start@shonarobot", "/alive", "#Kaal"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/500f6bd88da241e0c694a.png",
+        photo=f"https://telegra.ph/file/9a4731f8c0fe2631a9823.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
