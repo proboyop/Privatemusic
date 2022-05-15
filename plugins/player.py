@@ -130,7 +130,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "𝐀𝐒𝐓𝐔 🕊️⃝🦋 𝐌𝐔𝐒𝐈𝐂"
+        user.first_name = "PRIVATE MUSIC'X"
     usar = user
     wew = usar.id
     try:
@@ -142,13 +142,13 @@ async def play(_, message: Message):
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "**💥 𝐀𝐭🤞𝐅𝐢𝐫𝐬𝐭 🥀 𝐌𝐚𝐤𝐞 ♥️ 𝐌𝐞 ⭐ 𝐀𝐝𝐦𝐢𝐧 😎 ...**")
+                        "**💥 PAHELE ADMIN BNAO😎 ...**")
                     return
 
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "** 😎 𝐈🤞𝐚𝐦 🥀 𝐑𝐞𝐚𝐝𝐲 ♥️ 𝐓𝐨 ⭐ 𝐏𝐥𝐚𝐲 😎 ...**")
+                        message.chat.id, "** SONG BAJNE KE LIYE AB TAIYAR HAI 🙂...**")
 
                 except UserAlreadyParticipant:
                     pass
@@ -187,7 +187,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 💞",
-                            url=f"https://t.me/The_Friend_Circle")
+                            url=f"https://t.me/w2hsupport")
 
                 ]
             ]
@@ -226,7 +226,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 💞",
-                            url=f"https://t.me/The_Friend_Circle")
+                            url=f"https://t.me/w2hsupport")
 
                 ]
             ]
@@ -242,7 +242,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 💞",
-                            url=f"https://t.me/The_Friend_Circle")
+                            url=f"https://t.me/w2hsupport")
 
                 ]
             ]
@@ -296,7 +296,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 💞",
-                            url=f"https://t.me/The_Friend_Circle")
+                            url=f"https://t.me/w2hsupport")
 
                 ]
             ]
@@ -318,7 +318,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="**💥  𝐀𝐒𝐓𝐔 🕊️⃝🦋 𝐌𝐔𝐒𝐈𝐂 𝐍𝐨𝐰❗️\n🔊 𝐐𝐮𝐞𝐮𝐞𝐝 💞 𝐀𝐭 » `{}` 🌷 ...**".format(position),
+            caption="**💥 PRIVATE MUSIC'X NOW❗️\n🔊 𝐐𝐮𝐞𝐮𝐞𝐝 💞 𝐀𝐭 » `{}` 🌷 ...**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -335,7 +335,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**💥 𝐀𝐒𝐓𝐔 🕊️⃝🦋 𝐌𝐔𝐒𝐈𝐂 𝐍𝐨𝐰 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 𝐎𝐏 🥀 ...**".format(),
+            caption="**💥 PRIVATE MUSIC'X NOW 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 𝐎𝐏 🥀 ...**".format(),
            )
 
     os.remove("final.png")
