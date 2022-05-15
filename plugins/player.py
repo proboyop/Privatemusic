@@ -130,7 +130,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "PRIVATE MUSIC'X"
+        user.first_name = "PRIVATE MUSICX"
     usar = user
     wew = usar.id
     try:
@@ -318,7 +318,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="**💥 PRIVATE MUSIC'X NOW❗️\n🔊 𝐐𝐮𝐞𝐮𝐞𝐝 💞 𝐀𝐭 » `{}` 🌷 ...**".format(position),
+            caption="**💥 PRIVATE MUSICX NOW❗️\n🔊 𝐐𝐮𝐞𝐮𝐞𝐝 💞 𝐀𝐭 » `{}` 🌷 ...**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -335,7 +335,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**💥 PRIVATE MUSIC'X NOW 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 𝐎𝐏 🥀 ...**".format(),
+            caption="**💥 PRIVATE MUSICX NOW 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 𝐎𝐏 🥀 ...**".format(),
            )
 
     os.remove("final.png")
