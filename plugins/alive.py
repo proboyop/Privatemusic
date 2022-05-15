@@ -17,10 +17,10 @@ async def start_(client: Client, message: Message):
 𝐍𝐨 𝐋𝐚𝐠 𝐕𝐂 𝐌𝐮𝐬𝐢𝐜 𝐏𝐥𝐚𝐲𝐞𝐫 𝐁𝐨𝐭.
 
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 » [👑🌸 Ã丂t𝕌 𝒶𝕊𝓼ƗⓈ𝐓α𝓷Ŧ 🎁🎈](https://t.me/Astu_assis)
-┣★ 𝐂𝐫𝐞𝐚𝐭𝐞𝐝 𝐁𝐲 : [`•.,¸¸,.•´¯ ♖♟ 𝐀ＳŦ𝓤 💝🏆 ¯`•.,¸¸,.•´](https://t.me/Astu_back)
-┣★ 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 ➪ : [𝐂𝐥𝐢𝐜𝐤~𝐇𝐞𝐫𝐞](https://t.me/The_Friend_Circle)
-┣★ 𝐅𝐞𝐞𝐥𝐢𝐧𝐠𝐬 ➪ : [𝐂𝐥𝐢𝐜𝐤~𝐇𝐞𝐫𝐞](https://t.me/Feelings_of_Astu)
+┣★ 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 » [👑🌸 BANARAS OP🎁🎈](https://t.me/Away_from_love)
+┣★ 𝐂𝐫𝐞𝐚𝐭𝐞𝐝 𝐁𝐲 : [`•.,¸¸,.•´¯ ©®SHUBHU¯`•.,¸¸,.•´](https://t.me/w2h_ravan)
+┣★ 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 ➪ : [𝐂𝐥𝐢𝐜𝐤~𝐇𝐞𝐫𝐞](https://t.me/w2hsupport)
+┣★ 𝐅𝐞𝐞𝐥𝐢𝐧𝐠𝐬 ➪ : [𝐂𝐥𝐢𝐜𝐤~𝐇𝐞𝐫𝐞](https://t.me/ravan_feelings)
 ┗━━━━━━━━━━━━━━━━━┛
 
 💞 𝐉𝐮𝐬𝐭 𝐀𝐝𝐝 𝐌𝐞 » 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 𝐀𝐧𝐝
@@ -30,7 +30,7 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ❱ ➕", url=f"https://t.me/AstuPro_Bot?startgroup=true")
+                        "➕ ❰ APNE GROUP ME ADD KRO ❱ ➕", url=f"https://t.me/RavanRo_bot?startgroup=true")
                 ]
                 
            ]
